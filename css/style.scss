@@ -1,0 +1,59 @@
+$backg-color: #ccc;
+$front-color: rgb(211, 211, 211);
+$opacity-color: rgba(30, 30, 30, 0.5);
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $backg-color;
+    background-image: url(/image/bg.jpg);
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    color: $front-color;
+    background-size: 100%;
+
+    .line-block{
+        
+    }
+    header {
+        font-weight: 700;
+        height: 100px;
+        padding: 5px;
+        background-color: $opacity-color;
+    }
+    nav {
+        background-color: $opacity-color;
+        margin: 5px;
+        padding: 15px;
+    }
+    nav li {
+        display: inline-block;
+    }
+    nav li a {
+        color: white;
+        display: block;
+        border: 1px solid rgba(240, 240, 240, 0.5);
+        padding: 5px;
+    }
+    aside {
+        background-color: $opacity-color;
+        color: $front-color;
+        padding: 10px;
+        width: 300px;
+        float: left;
+        & a{
+            display: block;
+            &:hover{
+                background-color: rgba(240, 240, 0, 0.6)
+            }
+        }
+    }
+    main {
+        margin-left: 330px;
+        padding: 15px;
+        background-color: $opacity-color;
+    }
+    footer {
+        background-color: $opacity-color;
+        color: $front-color;
+    }
+}

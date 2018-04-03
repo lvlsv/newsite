@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ccc;
+  background-image: url(/image/bg.jpg);
+  background-repeat: no-repeat;
+  background-clip: content-box;
+  color: lightgray;
+  background-size: 100%;
+}
+
+body header {
+  font-weight: 700;
+  height: 100px;
+  padding: 5px;
+  background-color: rgba(30, 30, 30, 0.5);
+}
+
+body nav {
+  background-color: rgba(30, 30, 30, 0.5);
+  margin: 5px;
+  padding: 15px;
+}
+
+body nav li {
+  display: inline-block;
+}
+
+body nav li a {
+  color: white;
+  display: block;
+  border: 1px solid rgba(240, 240, 240, 0.5);
+  padding: 5px;
+}
+
+body aside {
+  background-color: rgba(30, 30, 30, 0.5);
+  color: lightgray;
+  padding: 10px;
+  width: 300px;
+  float: left;
+}
+
+body aside a {
+  display: block;
+}
+
+body aside a:hover {
+  background-color: rgba(240, 240, 0, 0.6);
+}
+
+body main {
+  margin-left: 330px;
+  padding: 15px;
+  background-color: rgba(30, 30, 30, 0.5);
+}
+
+body footer {
+  background-color: rgba(30, 30, 30, 0.5);
+  color: lightgray;
+}
+/*# sourceMappingURL=style.css.map */
